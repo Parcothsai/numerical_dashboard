@@ -56,7 +56,6 @@ Folder **tdb314** contains all files to develop the dashboard.
 
 When you change a params in these file, you can reload the web page and view directly effects.
 
-**[REMEMBER]** to commit and push modifications
 
 
 
