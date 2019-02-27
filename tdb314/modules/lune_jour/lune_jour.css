@@ -1,0 +1,65 @@
+/* Calendrier lunaire du jour */
+
+#lune_jour {
+	width			: 270px;
+	height			: 154px;
+	top				: 0px;
+	left			: 0px;
+	position		: absolute;
+	overflow 		: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius	: 77px 12px 3px 77px;
+    /* Effet Gloss */
+    box-shadow		:
+    	0px 2px 6px rgba(0, 0, 0, 0.5),
+    	inset 0 1px rgba(255, 255, 255, 0.3),
+    	inset 0 10px rgba(255, 255, 255, 0.2),
+    	inset 0 10px 20px rgba(255, 255, 255, 0.25),
+    	inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#lune_jour p {
+	min-height: 50px;
+	margin: 10px 10px 10px 145px;	
+	padding-left: 50px;
+}
+
+/* Lune descendante */
+#lune_jour p.D {
+	background: transparent url('lune_D.png') 12px top no-repeat;
+}
+
+/* Lune montante */
+#lune_jour p.M {
+	background: transparent url('lune_M.png') 12px top no-repeat;
+}
+
+/* Jour feuille */
+#lune_jour p.Feuille {
+	background: transparent url('J_Feuille.png') top left no-repeat;
+}
+
+/* Jour fleur */
+#lune_jour p.Fleur {
+	background: transparent url('J_Fleur.png') top left no-repeat;
+}
+
+/* Jour fruit */
+#lune_jour p.Fruit {
+	background: transparent url('J_Fruit.png') top left no-repeat;
+}
+
+/* Jour racine */
+#lune_jour p.Racine {
+	background: transparent url('J_Racine.png') top left no-repeat;
+}
+
+/* Noeud ascendant */
+#lune_jour p.NA {
+	background: transparent url('J_NA.png') top left no-repeat;
+}
+
+/* Noeud descendant */
+#lune_jour p.ND {
+	background: transparent url('J_ND.png') top left no-repeat;
+}

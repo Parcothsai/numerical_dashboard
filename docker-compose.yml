@@ -1,0 +1,18 @@
+version: "3.2"
+
+services:
+  raspberry:
+    container_name: ${CONTAINER}
+    image: ${IMAGE}
+    ports:
+      - "${PORT}:80"
+    networks:
+      - ${NETWORK}
+    volumes:
+      - ./tdb314/:/var/www/html/
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+
+networks:
+  raspberry:
+    external: true

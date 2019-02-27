@@ -1,0 +1,51 @@
+/* Mot du jour */
+
+#motdujour
+{
+	width			: 500px;
+	height			: 100px;
+	top				: 0px;
+	left			: 0px;
+	position		: absolute;
+	overflow 		: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius	: 3px 3px 12px 12px;
+    /* Effet Gloss inversé */
+    box-shadow		:
+    	0px 2px 6px rgba(0, 0, 0, 0.5),
+    	inset 0 1px rgba(255, 255, 255, 0.3),
+    	inset 0 -10px rgba(255, 255, 255, 0.2),
+    	inset 0 -10px 20px rgba(255, 255, 255, 0.25),
+    	inset 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Mise en forme de la citation */
+quotation {
+}
+
+quote {
+	quotes: "\201C" "\201D";
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 30px;
+	display: block;
+	position: absolute;
+	left: 75px;
+	top: 10px;
+}
+
+/* Ajout d'un guillemet ombré en début de citation */
+quote:before{
+	content: open-quote;
+	font-family: 'Times New Roman', Georgia, serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 130px;
+	color: #888;
+	text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.5);
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: -70px;
+}

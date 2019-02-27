@@ -1,0 +1,87 @@
+{
+	"title": "Juggle Numerical DashBoard",
+	"width": "1920px",
+	"height": "1080px",
+	"fond": "fond.jpg",
+	"modules": [
+	{
+		"name": "horloge",
+		"width": "500px",
+		"top": "10px",
+		"left": "10px",
+		"update": 1,
+		"args":
+		{
+			"taille_heure": "160px",
+			"taille_date": "45px"
+		}
+	},
+	{
+		"name": "meteo",
+		"width": "700px",
+		"height": "220px",
+		"top": "10px",
+		"left": "520px",
+		"update": 3600
+	},
+	{
+		"name": "rss",
+		"width": "500px",
+		"height": "360px",
+		"top": "240px",
+		"left": "10px",
+		"update": 300,
+		"args":
+		{
+			"url": "http://www.lemonde.fr/rss/une.xml",
+			"nb_items": 3
+		}
+	},
+	{
+		"name": "diaporama",
+		"width": "500px",
+		"height": "375px",
+		"top": "615px",
+		"left": "10px",
+		"update": 0,
+		"args":
+		{
+			"dossier": "./img/",
+			"delai": 5000
+		}
+	},
+	{
+		"name": "xplanet_terre",
+		"width": "450px",
+		"height": "450px",
+		"top": "250px",
+		"left": "530px",
+		"update": 120
+	},
+	{
+		"name": "xplanet_lune",
+		"width": "134px",
+		"height": "134px",
+		"top": "250px",
+		"left": "960px",
+		"update": 600
+	},
+	{
+		"name": "connexion",
+		"width": "220px",
+		"height": "175px",
+		"top": "525px",
+		"left": "925px",
+		"update": 60,
+		"args":
+		{
+			"ip_box": "192.168.1.1",
+			"ip_internet": "www.google.com"
+		}
+	},
+	{
+		"name": "neige",
+		"update": 0
+	}
+	]
+}
