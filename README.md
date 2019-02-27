@@ -24,7 +24,7 @@ A Makefile  is available to facilitate deployment
 
 1.  `git clone https://github.com/Parcothsai/numerical_dashboard.git`
 
-2.  `cd raspberry_project`
+2.  `cd numerical_dashboard`
 
 3.  `make init`
 
